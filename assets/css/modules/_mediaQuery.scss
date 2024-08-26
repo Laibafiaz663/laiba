@@ -1,0 +1,280 @@
+@media (min-width: 991px){
+    .md-show{
+        display: none;
+    }
+}
+@media(max-width:1270px){
+    .browse-location-wrapper{
+        .browser-location-title{
+            display: none;
+        }
+        .browse-location-content{
+            .btn-controller{
+                position: static;
+                transform: none;
+                .swiper-button-prev,.swiper-button-next{
+                    position: absolute;
+                    transform: none;
+                }
+            }
+             .browser-location-inner{
+                position: relative;
+            }
+        }
+    }
+}
+
+
+
+/*desktop*/
+
+@media(max-width:991px){
+
+    .mb-hide{
+        display: none !important;
+    }
+
+    .main-nav-bar-wrapper{
+        i{
+            display: block;
+        }
+    }
+
+
+
+
+
+   
+    .site-banner-wrapper{
+        .site-banner-inner{
+            form{
+                display:flex;
+                flex-wrap: wrap;
+                .form-style{
+                    margin-bottom: 0.625rem;
+                }
+            }
+            .site-banner-body{
+                .nav-tabs{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+
+    }
+    .browse-location-wrapper{
+        .browser-location-title{
+            display: none;
+        }
+        .browse-location-content{
+            .browser-location-inner{
+                margin:1rem;
+            }
+            .btn-controller{
+                position: static;
+                transform: none;
+                .swiper-button-prev,.swiper-button-next{
+                    position: absolute;
+                    transform: none;
+                }
+            }
+        }
+    }
+    //  packdges-wrapper
+      .popular-packdges-wrapper{
+         .popular-packdges-inner{
+            .popular-packdges-body{
+               .pkg-btn-controller{
+                  position:static;
+                  transform: none;
+                  & .swiper-button-prev,.swiper-button-next{
+                     position:absolute;
+                  }
+               }
+            }
+         }
+      }
+   
+    }
+/*tablet*/
+@media (max-width:767px){
+    .tourism-wrapper{
+        .tourism-wrapper-inner{
+            button{
+                display: block;
+                margin: 0 auto;
+            }
+            .tourism-med-sec{
+                strong{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                }
+                img{
+                    animation:normal;
+                    width: 50%;
+                    height: 100%;
+                    display: block;
+                    margin: 0 auto;
+                }
+                }
+        }
+        }
+
+        .flight-sec-wrapper{
+      
+            .flight-sec-inner{
+              
+                .row{
+                       
+                  [class^="col-"]:not(:last-child){
+                    border-right: none;
+              &::before{
+                display: none;
+              }
+           }
+                }
+            }
+         }
+         .travel-pkg-wrapper{
+            .travel-left-con{
+               display: flex;
+               gap: 2rem;
+            }
+            .travel-right-con{
+               img{
+                  width: 100%;
+               }
+            }
+            .travel-pkg-strip{
+               &::before{
+                display: none;
+               }
+               &::after{
+                display: none;
+               }
+               .travel-pk-con{
+                  display: flex;
+                  justify-content:center;
+                  align-items: center;
+                  .strip-left-con{
+                     strong:not(:last-child) {
+                        border-right: none;
+                      }
+                      strong{
+                        display: none;
+                      }
+                  }
+               }
+
+                  }
+               }
+               .travel-pkg-img{
+                .img-1{
+                 display: none;
+                 
+                }
+                .img-2{
+                 display: none;
+                 
+                }
+             }
+             .footer-wrapper{
+                .footer-left{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                      .form-control{
+                         border: none;
+                      }
+                      span{
+                         display: none;
+                      }
+                   }
+                   .footer-right{
+                      .footer-right-left{
+                         .contact{
+                            border-right:none;
+                         }
+                      }
+                   }
+                }
+            }
+           
+/*phones*/
+@media(max-width:576px){
+    .top-strip-wrapper{
+        .top-strip-inner{
+            .top-strip-left{
+                .top-strip-loc{
+                    display: none;
+                }
+                .top-strip-emai{
+                    border-right: none;
+                }
+            }
+           
+        }
+    }
+    .section-title::after,.section-title::before{
+        display: none;
+    }
+    .information-wrapper{
+        figure{
+
+           figcaption{
+              .info-wrap-head{
+                 .info-wrap-title{
+                    width: auto;
+                    text-align: center;
+
+                   
+                 }
+                 p{
+                    text-align: center;
+                   
+                 }
+              }
+           }
+        }
+        .information-wrapper-right{
+           figure{
+              position: relative;
+              img{
+                 position:static !important;
+              }
+              @keyframes move{
+                 
+              50%{
+                 transform: translate(3%);
+              }
+           }
+        }
+     }
+  }
+  .flight-sec-wrapper{   
+    figcaption{
+       
+       i{
+        display: block;
+        text-align: center;
+         
+       }
+       strong{
+        display: block;
+        text-align:center;
+        
+       }
+       p{
+        text-align: center;
+       }    
+    }
+    
+ }
+.section-title-left::after{
+    display: none;
+}
+}
+/*small devices*/
+// @media(max-width:420px){}

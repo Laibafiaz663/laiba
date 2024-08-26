@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ytoumr');
+  src:  url('fonts/icomoon.eot?ytoumr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ytoumr') format('truetype'),
+    url('fonts/icomoon.woff?ytoumr') format('woff'),
+    url('fonts/icomoon.svg?ytoumr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brunch_dining:before {
+  content: "\e900";
+}
+.icon-office:before {
+  content: "\e903";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-bullhorn:before {
+  content: "\e91a";
+}
+.icon-profile:before {
+  content: "\e923";
+}
+.icon-ticket:before {
+  content: "\e939";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-clock:before {
+  content: "\e94e";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-lock:before {
+  content: "\e98f";
+}
+.icon-bin2:before {
+  content: "\e9ad";
+}
+.icon-briefcase:before {
+  content: "\e9ae";
+}
+.icon-airplane:before {
+  content: "\e9af";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
